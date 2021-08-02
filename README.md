@@ -9,12 +9,12 @@
 - Static files
 
 ## Start Flask App
-Virtual Environment Folder
-`virtualenv <nameofvenv>`
 Activating virtualenv:
 - Windows
+    - `virtualenv <nameofvenv>`
     - `<nameofvenv>\Scripts\activate`
 - Mac
+    - `virtualenv <nameofvenv>`
     - `source <nameofvenv>/bin/activate`
 Add flask environment variables:
 - Windows
