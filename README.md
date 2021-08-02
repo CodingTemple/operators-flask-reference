@@ -9,20 +9,20 @@
 - Static files
 
 ## Start Flask App
-Activating virtualenv:
-- Windows
-    - `virtualenv <nameofvenv>`
-    - `<nameofvenv>\Scripts\activate`
-- Mac
-    - `virtualenv <nameofvenv>`
-    - `source <nameofvenv>/bin/activate`<br>
-Add flask environment variables:
-- Windows
-    - `set FLASK_ENV=development`
-    - `set FLASK_APP=<NAME-OF-PROJECT>(ie drone_inventory)`
-- Mac
-    - `export FLASK_ENV=development`
-    - `export FLASK_APP=<NAME-OF-PROJECT>(ie drone_inventory)`
+- Activating virtualenv:
+    - Windows
+        - `virtualenv <nameofvenv>`
+        - `<nameofvenv>\Scripts\activate`
+    - Mac
+        - `virtualenv <nameofvenv>`
+        - `source <nameofvenv>/bin/activate`
+- Add flask environment variables:
+    - Windows
+        - `set FLASK_ENV=development`
+        - `set FLASK_APP=<NAME-OF-PROJECT>(ie drone_inventory)`
+    - Mac
+        - `export FLASK_ENV=development`
+        - `export FLASK_APP=<NAME-OF-PROJECT>(ie drone_inventory)`
 
 [Flask Documentation](https://flask.palletsprojects.com/en/1.1.x/ "Main Flask Docs")
 
