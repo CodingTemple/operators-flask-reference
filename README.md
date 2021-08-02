@@ -15,7 +15,7 @@ Activating virtualenv:
     - `<nameofvenv>\Scripts\activate`
 - Mac
     - `virtualenv <nameofvenv>`
-    - `source <nameofvenv>/bin/activate`
+    - `source <nameofvenv>/bin/activate`<br>
 Add flask environment variables:
 - Windows
     - `set FLASK_ENV=development`
