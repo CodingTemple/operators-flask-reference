@@ -29,10 +29,7 @@ Topics Covered:
 - Rendering a form to HTML
 - Creating Models
 - Migrating Models
-- Saving Data from form
-- Querying data from database using ORM
 - Using Environment variables with `.env`
-- Flask Flash Messages
 
 ## Python Packages
 Flask-WTF: `pip install Flask-WTF`
