@@ -1,3 +1,4 @@
+from enum import unique
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from datetime import datetime
@@ -13,11 +14,11 @@ db = SQLAlchemy()
 
 class User(db.Model):
     id = db.Column(db.String, primary_key = True)
-    email = db.Column(db.String(150), nullable = False)
-    password = db.Column(db.String, nullable = True)
+    email = db.Column(db.String(150), nullable = False, unique = True)
+    password = db.Column(db.String, nullable = False)
     token = db.Column(db.String, unique = True)
     date_created = db.Column(db.DateTime, nullable = False, default = datetime.utcnow)
-
+    
     def __init__(self, email, password, token = '', id = ''):
         self.id = self.set_id()
         self.email = email
@@ -33,6 +34,9 @@ class User(db.Model):
 
     def set_token(self, length):
         return secrets.token_hex(length)
+
+
+
 
 
 
