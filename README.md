@@ -59,8 +59,6 @@ Topics Covered:
 - psycopg2: `pip install psycopg2` (or for mac: `pip install psycopg2-binary`)
 - Email_Validator: `pip install email_validator`
 
-
-
 # Day 3
 
 ## Topics Covered
