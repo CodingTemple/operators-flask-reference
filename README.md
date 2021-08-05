@@ -38,3 +38,39 @@ Flask Migrate: `pip install Flask-Migrate`
 Python-dotenv: `pip install python-dotenv`
 psycopg2: `pip install psycopg2` (or for mac: `pip install psycopg2-binary`)
 Email_Validator: `pip install email_validator`
+
+# Day 2
+Topics Covered:
+- Flask Forms with Flask-WTF
+- Getting Data from a form
+- Rendering a form to HTML
+- Creating Models
+- Migrating Models
+- Saving Data from form
+- Querying data from database using ORM
+- Using Environment variables with `.env`
+- Flask Flash Messages
+
+## Python Packages
+- Flask-WTF: `pip install Flask-WTF`
+- Flask SQLAlchemy: `pip install Flask-SQLAlchemy`
+- Flask Migrate: `pip install Flask-Migrate`
+- Python-dotenv: `pip install python-dotenv`
+- psycopg2: `pip install psycopg2` (or for mac: `pip install psycopg2-binary`)
+- Email_Validator: `pip install email_validator`
+
+
+
+# Day 3
+
+## Topics Covered
+- User authentication
+- Protected Routes
+- User sessions
+
+## Python Packages
+- Flask SQLAlchemy: `pip install Flask-SQLAlchemy`
+- Flask Migrate: `pip install Flask-Migrate`
+- Python-dotenv: `pip install python-dotenv`
+- psycopg2: `pip install psycopg2` (or for mac: `pip install psycopg2-binary`)
+- Flask Login: `pip install flask-login`
