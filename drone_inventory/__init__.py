@@ -23,8 +23,8 @@ ma.init_app(app)
 
 login_manager.login_view = 'auth.signin' # Specify what page to load for NON-AUTHED users
 migrate = Migrate(app, db)
-
+CORS(app)
 app.json_encoder = JSONEncoder
 
-CORS(app)
+
 from .models import User
