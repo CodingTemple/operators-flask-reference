@@ -11,10 +11,10 @@
 ## Start Flask App
 - Activating virtualenv:
     - Windows
-        - `virtualenv <nameofvenv>`
+        - `python -m venv <nameofvenv>`
         - `<nameofvenv>\Scripts\activate`
     - Mac
-        - `virtualenv <nameofvenv>`
+        - `python -m venv <nameofvenv>`
         - `source <nameofvenv>/bin/activate`
 - Add flask environment variables:
     - Windows
