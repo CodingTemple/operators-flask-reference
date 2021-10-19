@@ -36,5 +36,5 @@ Flask-WTF: `pip install Flask-WTF`
 Flask SQLAlchemy: `pip install Flask-SQLAlchemy`
 Flask Migrate: `pip install Flask-Migrate`
 Python-dotenv: `pip install python-dotenv`
-psycopg2: `pip install psycopg2` (or for mac: `pip install psycopg2-binary`)
+psycopg2: `pip install psycopg2` (or for mac: `pip install psycopg2-binary==2.8.6`)
 Email_Validator: `pip install email_validator`
